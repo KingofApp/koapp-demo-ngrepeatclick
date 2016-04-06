@@ -35,4 +35,7 @@ $scope.test = function(varX, varX1, varX2) {
   console.log("2-------->", varX2);
 }
 ```
-`Strings inside the ngclick function have to use single quotes like the example. Double quotes won't work.`
+`Strings inside the ngclick function have to use single quotes like the example. Double quotes won't work:`
+```html
+<koa-button ng-click="test('{{item}}','dos',variable)">TEXT</koa-button>
+```
