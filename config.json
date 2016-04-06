@@ -1,0 +1,16 @@
+{
+  "name": "Ngrepeat And click",
+  "identifier": "ngrepeatclick",
+  "type": "A",
+  "icon": "star",
+  "showOn": {
+    "menu": true,
+    "market": true,
+    "dragDrop": true
+  },
+  "view": "modules/ngrepeatclick/index.html",
+  "files": ["modules/ngrepeatclick/controller.js"],
+  "scope": {
+    "value": "<p style='color:#39a9d3'>Welcome to my </p><p style='color:#d36339'>APP</p>"
+  }
+}

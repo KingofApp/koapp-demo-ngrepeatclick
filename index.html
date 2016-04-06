@@ -1,0 +1,16 @@
+<div class="module ngrepeatclick" ng-controller="ngrepeatclickController">
+
+
+  <koa-grid columns='2' cell-space='10px'>
+    <koa-card ng-repeat="item in list" >
+      <div class="card-content">
+        <div ng-bind-html="ngrepeatclick.modulescope.value"></div>
+      </div>
+      <div class="card-actions">
+        <koa-button link ng-click="test('{{item}}','dos',variable)">TEXT</koa-button>
+      </div>
+    </koa-card>
+  </koa-grid>
+
+
+</div>
